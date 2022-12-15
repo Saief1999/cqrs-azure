@@ -10,7 +10,7 @@ This is the full architecture :
 
 ![Full Architecture](./diagrams/img/architecture.png)
 
-Full presentation can be found here : [Presentation link](https://docs.google.com/presentation/d/1dFtx48FfI9SLz0w9gUmCfHPFU4FizrWqacQEvBQa6wg/edit#slide=id.gd1d1ee2289_0_139)
+Full presentation can be found here : [Presentation link](https://docs.google.com/presentation/d/1dFtx48FfI9SLz0w9gUmCfHPFU4FizrWqacQEvBQa6wg/edit?usp=sharing)
 
 
 Reads are happening through `Elasticsearch`, Writes happen through `CosmosDB`. Synchronization is done using an `Azure function` that subscribes to an `Event Grid Topic`.
