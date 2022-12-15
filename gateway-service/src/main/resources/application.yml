@@ -5,15 +5,15 @@
 #  application:
 #    name: gateway-service
 
-  cloud:
+#  cloud:
 #    config:
 #      discovery:
 #        enabled: true
 #        serviceId: configuration-service
-    gateway:
-      discovery:
-        locator:
-          enabled: true
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
 
 #eureka:
 #  client:
