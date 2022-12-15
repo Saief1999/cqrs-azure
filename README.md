@@ -1,6 +1,6 @@
 ## Overview
 
-This is a a Proof of concept of a CQRS implementation using Azure Services.
+This is a Proof of concept of a CQRS implementation using Azure Services.
 
 This is an improvement over [this project](https://github.com/Saief1999/cqrs-microservices), the different components have been deployed on Azure using the relevant services.
 
@@ -33,7 +33,7 @@ The `Configuration Server` and the `Registry Server` are automatically provided 
 
 3. Create the event subscription in the terraform code, to link the azure function to event grid.
 
-4. change  Eventgrid endpoint + Token and comsos connection string in the config server (on github) to match the new ones.
+4. change  Eventgrid endpoint + Token and cosmos connection string in the config server (on github) to match the new ones ( you can find values in the terraform output ).
 
 5. in each of the services ( search, upsert, gateway ), we package them again : 
 
