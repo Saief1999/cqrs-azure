@@ -33,7 +33,7 @@ module "spring-apps-service" {
     # "configuration-server",
     "search-microservice",
     "upsert-microservice",
-    # "gateway-service"
+    "gateway-service"
   ])
 
   source             = "../spring-apps-app"
